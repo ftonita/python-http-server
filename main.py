@@ -10,7 +10,7 @@ class HttpGetHandler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write('<html><head><meta charset="utf-8">'.encode())
         self.wfile.write('<title>Простой HTTP-сервер.</title></head>'.encode())
-        self.wfile.write('<body><h1>Был получен GET-запрос.</h1>'.encode())
+        self.wfile.write('<body><h2>Былsdfsdfsdfdsfljahfhafl получен GET-запрос.</h2>'.encode())
         self.wfile.write('ывдлалвыаывжажывлаждываждывлаждывлждалждылваждлыждалждаджыла</body></html>'.encode())
 
 def run(server_class=HTTPServer, handler_class=HttpGetHandler):
